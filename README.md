@@ -1,2 +1,284 @@
-# Brazil-ecommerce-sales-dashboard
-End-to-end Power BI analytics project exploring Brazilian e-commerce sales, revenue trends, customer distribution, product-category performance, order status, and key KPIs through an interactive business intelligence dashboard.
+### Brazil-ecommerce-sales-dashboard
+
+An end-to-end Data Analytics and Business Intelligence project analyzing Brazilian e-commerce sales data using SQL and Microsoft Power BI. The project covers data exploration, data cleaning, transformation, KPI development, business analysis, and interactive dashboard visualization.
+
+The final dashboard provides a consolidated view of revenue, orders, average order value, customer distribution, product-category performance, order status, and yearly sales trends.
+
+
+## Project Overview
+
+This project demonstrates an end-to-end analytics workflow, starting from raw e-commerce transaction data and transforming it into meaningful business insights.
+The data was first explored and analyzed using SQL, where queries were used to understand the structure of the dataset, examine sales performance, identify important business metrics, and prepare relevant data for visualization.
+
+The processed data was then integrated into Microsoft Power BI, where additional transformations, calculated measures, KPIs, interactive visuals, filters, and dashboard components were developed.
+The final result is an interactive business intelligence dashboard that enables users to analyze Brazilian e-commerce performance from multiple perspectives.
+
+
+## Project Objectives
+
+The main objectives of this project are:
+
+- Analyze overall e-commerce sales performance
+- Calculate and monitor key business KPIs
+- Analyze revenue and order trends over time
+- Identify high-performing product categories
+- Analyze order status distribution
+- Understand customer distribution across Brazilian states
+- Perform data exploration and analysis using SQL
+- Clean and transform data for analytics
+- Develop interactive Power BI visualizations
+- Create a professional business intelligence dashboard
+- Convert raw transactional data into actionable business insights
+
+
+## End-to-End Analytics Workflow
+
+The project follows a complete data analytics workflow:
+
+Raw Data → SQL Analysis → Data Cleaning & Transformation → Power BI Data Modeling → DAX Measures → Dashboard Development → Business Insights
+
+# 1. Data Exploration
+
+The dataset was initially explored to understand:
+
+- Available tables and columns
+- Customer information
+- Order information
+- Product information
+- Order status
+- Pricing information
+- Customer locations
+- Time-related information
+
+# 2. SQL Analysis
+
+SQL was an important part of the project and was used for data exploration, aggregation, filtering, and business analysis.
+
+SQL queries were used to:
+
+- Examine the structure of the data
+- Identify relevant records and fields
+- Analyze order and sales information
+- Calculate aggregated sales metrics
+- Analyze product-category performance
+- Examine order statuses
+- Analyze customer distribution
+- Group and summarize data for business analysis
+- Validate important metrics before dashboard development
+
+SQL helped transform raw transactional data into structured information suitable for further analysis and visualization.
+
+
+## 3. Data Cleaning & Transformation
+
+Data preparation was performed to improve data quality and make the dataset suitable for analysis.
+
+Key activities included:
+
+- Handling missing values
+- Checking data types
+- Removing unnecessary fields
+- Identifying relevant columns
+- Preparing categorical fields
+- Preparing date and time information
+- Creating analysis-ready datasets
+- Ensuring consistency between related fields
+
+Power Query was used extensively for data transformation and preparation within Power BI.
+
+
+## 4. Data Modeling
+
+The prepared data was organized within Power BI to support efficient analysis and interactive reporting.
+
+The data model was used to connect relevant information such as:
+
+- Customers
+- Orders
+- Products
+- Product categories
+- Order status
+- Customer states
+- Sales values
+- Dates
+
+This allowed different dimensions of the business to interact correctly with the dashboard.
+
+
+## DAX & KPI Development
+
+DAX (Data Analysis Expressions) was used in Power BI to create calculated measures and business KPIs.
+
+The dashboard includes the following major KPIs:
+
+# Total Revenue
+
+Measures the overall revenue generated from the analyzed e-commerce transactions.
+
+# Total Orders
+
+Represents the total number of orders included in the analysis.
+
+# Average Order Value
+
+Measures the average revenue generated per order.
+
+# Total Customers
+
+Represents the number of customers included in the dataset.
+
+These KPIs provide a quick overview of overall business performance.
+
+
+## Dashboard Features
+
+The Power BI dashboard contains several interactive visualizations.
+
+## Revenue Trend by Year
+
+A line chart showing how revenue changes over different years.
+
+This helps identify:
+
+- Revenue growth or decline
+- Yearly performance
+- Overall sales trends
+
+
+## Sales by Product Category
+
+A bar chart comparing revenue generated by different product categories.
+
+This helps identify:
+
+- High-performing categories
+- Lower-performing categories
+- Product segments contributing significantly to revenue
+
+
+## Order Status Distribution
+
+A donut chart showing the distribution of orders across different order statuses.
+
+This helps analyze:
+
+- Delivered orders
+- Shipped orders
+- Cancelled orders
+- Processing orders
+- Other order statuses
+
+
+## Customer State Analysis
+
+An interactive state-level filter allows users to analyze customers based on their Brazilian state.
+
+This helps understand:
+
+- Customer distribution
+- Geographic concentration
+- Regional sales analysis
+
+
+## Interactive Filters & Slicers
+
+The dashboard includes interactive filters that allow users to dynamically explore the data.
+
+Users can filter the dashboard based on dimensions such as:
+
+- Order status
+- Customer state
+- Time period
+- Product category
+
+This makes the dashboard useful for interactive business analysis rather than static reporting.
+
+
+##  Tools & Technologies
+
+# SQL
+Used for:
+
+- Data exploration
+- Data filtering
+- Aggregation
+- Business analysis
+- Data validation
+- Preparing analytical datasets
+
+# Microsoft Power BI
+Used for:
+
+- Data modeling
+- Dashboard development
+- Interactive visualization
+- KPI reporting
+- Business intelligence analysis
+
+# Power Query
+Used for:
+
+- Data cleaning
+- Data transformation
+- Data preparation
+- Handling missing or inconsistent data
+
+# DAX
+Used for:
+
+- Calculated measures
+- KPI creation
+- Aggregations
+- Business calculations
+
+# Data Visualization
+Used to present analytical findings through:
+
+- KPI cards
+- Line charts
+- Bar charts
+- Donut charts
+- Interactive slicers
+
+
+##  Key Business Insights
+
+The dashboard enables analysis of several important business questions:
+
+- How is overall revenue performing?
+- How many orders are being generated?
+- What is the average order value?
+- Which product categories generate the highest revenue?
+- How does revenue change over time?
+- What percentage of orders are delivered?
+- What are the different order-status distributions?
+- Where are customers geographically concentrated?
+- Which customer states contribute significantly to the business?
+
+The dashboard converts these analytical questions into an interactive visual reporting experience.
+
+
+## Dashboard KPIs
+
+| KPI | Description |
+| Total Revenue | Overall revenue generated from e-commerce sales |
+| Total Orders | Total number of orders recorded in the dataset |
+| Average Order Value | Average revenue generated per order |
+| Total Customers | Total number of customers represented in the dataset |
+
+
+## Dashboard Preview
+
+![Brazil E-Commerce Sales Dashboard](dashboard-preview.png)
+
+
+##  Project Structure
+
+```text
+Brazil-ecommerce-sales-dashboard/
+│
+├── Brazil_Ecommerce_Sales_Dashboard.pbix
+├── dashboard-preview.png
+├── README.md
+└── SQL/
+    └── analysis_queries.sql
